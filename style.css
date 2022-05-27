@@ -1,0 +1,570 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:960px){
+
+.container{
+    
+    background:url(images/hm.jpg) ;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+}
+@media only screen and (max-width:960px){
+
+    .container{
+        
+        background:url(images/hm.jpg) ;
+        height: 100vh;
+        background-size: 100% 100%;
+    }
+    
+    }
+@media only screen and (min-width:960px){
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+}
+
+@media only screen and (max-width:960px){
+
+    .navbar{
+        width: 100%;
+        height: 80px;
+        background: rgba(0, 0, 0, 0.4);
+    
+    }
+    }
+@media only screen and (min-width:960px){
+.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+}
+
+@media only screen and (max-width:960px){
+    .logo{
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    }
+@media only screen and (min-width:960px){
+.logo a {
+
+    text-decoration: none;
+    font-size:30px;
+    font-family: sans-serif;
+    color:#f3f3f3;
+
+
+
+}
+}
+@media only screen and (max-width:960px){
+    .logo a {
+    
+        text-decoration: none;
+        font-size:30px;
+        font-family: sans-serif;
+        color:#f3f3f3;
+    
+    
+    
+    }
+    }
+@media only screen and (min-width:960px){
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+}
+@media only screen and (max-width:960px){
+
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+    }
+@media only screen and (min-width:960px){
+
+.navbar ul li{
+
+    list-style: none;
+    display:inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+
+}
+}
+@media only screen and (max-width:960px){
+
+    .navbar ul li{
+    
+        list-style: none;
+        display:inline-block;
+        margin: 0 8px;
+        line-height: 80px;
+    
+    
+    }
+    }
+@media only screen and (min-width:960px){
+.navbar ul li a{
+
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif ;
+}
+}
+@media only screen and (max-width:960px){
+    .navbar ul li a{
+    
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 6px 13px;
+        font-family: sans-serif ;
+    }
+    }
+@media only screen and (min-width:960px){
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+ background: #f40101;
+ border-radius:2px;
+
+}
+}
+@media only screen and (max-width:960px){
+
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+     background: #f40101;
+     border-radius:2px;
+    
+    }
+    }
+@media only screen and (min-width:960px){
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+}
+@media only screen and (max-width:960px){
+
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: sans-serif;
+        user-select: none;
+    
+    }
+    }
+@media only screen and (min-width:960px){
+.center h1{
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+
+}
+}
+@media only screen and (max-width:960px){
+    .center h1{
+        color:white;
+        font-size: 70px;
+        font-weight: bold;
+        width: 900px;
+        text-align: center;
+    
+    }
+    }
+@media only screen and (min-width:960px){
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top:10px ;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width:960px){
+    .center h2{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        width: 885px;
+        margin-top:10px ;
+        text-align: center;
+    }
+    }
+@media only screen and (min-width:960px){
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+}
+
+@media only screen and (max-width:960px){
+
+
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    }
+@media only screen and (min-width:960px){
+body{
+    color: #ffffff;
+    background-color: #011627;
+    font-family: 'Ubuntu', sans-serif;
+}
+}
+
+@media only screen and (max-width:960px){
+    body{
+        color: #ffffff;
+        background-color: #011627;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    }
+@media only screen and (min-width:960px){
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+}
+@media only screen and (max-width:960px){
+
+    #contact{
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    }
+@media only screen and (min-width:960px){
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width:960px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    }
+@media only screen and (min-width:960px){
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -17px;
+   
+}
+}
+@media only screen and (max-width:960px){
+    .title{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: -17px;
+       
+    }
+    }
+@media only screen and (min-width:960px){
+.contact-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media only screen and (max-width:960px){
+    .contact-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+@media only screen and (min-width:960px){
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+}
+
+@media only screen and (max-width:960px){
+    .cont-top{
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #ffffff;
+    }
+    }
+@media only screen and (min-width:960px){
+
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+
+@media only screen and (max-width:960px){
+
+    .cont-bottom{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    }
+@media only screen and (min-width:960px){
+
+
+
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+}
+
+@media only screen and (max-width:960px){
+
+
+
+    .cont-right{
+        width: 60%;
+        padding: 3rem;
+    }
+    }
+@media only screen and (min-width:960px){
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media only screen and (max-width:960px){
+    .cont-right form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+@media only screen and (min-width:960px){
+.cont-right form input, textarea, button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid #000000;
+    color: #ffffff; 
+    transition: all 0.4s ease;
+}
+}
+
+@media only screen and (max-width:960px){
+    .cont-right form input, textarea, button{
+        width: 100%;
+        margin: 1rem 0;
+        background-color: transparent;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+        outline: none;
+        border: 2px solid #000000;
+        color: #ffffff; 
+        transition: all 0.4s ease;
+    }
+    }
+@media only screen and (min-width:960px){
+.cont-right form button{
+    background-color: #ffffff;
+    color: #011627;
+    cursor: pointer;
+}
+}
+@media only screen and (max-width:960px){
+    .cont-right form button{
+        background-color: #ffffff;
+        color: #011627;
+        cursor: pointer;
+    }
+    }
+@media only screen and (min-width:960px){
+.cont-right form button:hover{
+    background-color: #011627;
+    color: #ffffff;
+}
+}
+
+@media only screen and (max-width:960px){
+    .cont-right form button:hover{
+        background-color: #011627;
+        color: #ffffff;
+    }
+    }
+@media only screen and (min-width:960px){
+.cont-right form input:hover, textarea:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+}
+
+@media only screen and (max-width:960px){
+    .cont-right form input:hover, textarea:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+    }
+@media only screen and (min-width:960px){
+.cont-right form input:focus, textarea:focus{
+    color: #011627;
+    background-color: #ffffff;
+
+}
+}
+
+@media only screen and (max-width:960px){
+    .cont-right form input:focus, textarea:focus{
+        color: #011627;
+        background-color: #ffffff;
+    
+    }
+    }
+@media only screen and (min-width:960px){
+
+.mesaj{
+    text-align: center;
+    margin: 40px;
+   
+}
+}
+
+@media only screen and (max-width:960px){
+
+    .mesaj{
+        text-align: center;
+        margin: 40px;
+       
+    }
+    }
+@media only screen and (min-width:960px){
+
+.hakkında{
+    background:url(images/hakkında.jpg) ;
+    height: 350px;
+    width:80%;
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-bottom:30px;
+     
+    
+}
+}
+
+@media only screen and (max-width:960px){
+
+    .hakkında{
+        background:url(images/hakkında.jpg) ;
+        height: 350px;
+        width:80%;
+        background-size: 100% 100%;
+        margin:0 auto;
+        margin-bottom:30px;
+         
+        
+    }
+    }
+@media only screen and (min-width:960px){
+img{
+    max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:960px){
+    img{
+        max-width: 100%;
+        }
+    }
+@media only screen and (min-width:960px){
+.Ürünler img{
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0,0.3);
+    cursor: pointer;
+
+}
+}
+
+@media only screen and (max-width:960px){
+    .Ürünler img{
+        background-color: white;
+        padding: 15px;
+        width: 100%;
+        box-shadow: 0 0 15px rgba(0, 0, 0,0.3);
+        cursor: pointer;
+    
+    }
+    }
+@media only screen and (min-width:960px){
+.Ürünler{
+    background-color: #939393;
+    padding: 80px 0;
+
+
+}
+}
+
+@media only screen and (max-width:960px){
+    .Ürünler{
+        background-color: #939393;
+        padding: 80px 0;
+    
+    
+    }
+    }
+
+
+
+
+
+
+ 
+
